@@ -4,10 +4,7 @@
 #define CR_HOST CR_UNSAFE
 #include "./libs/cr.h"
 
-int main(int argc, char *argv[]) {
-  (void)argc;
-  (void)argv;
-
+int main() {
   cr_plugin ctx;
   cr_plugin_open(ctx, "./built/plugin.dll");
 
